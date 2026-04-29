@@ -122,6 +122,7 @@ h2 {
 
 .formulario {
     width: 50%;
+    
 }
 
 form {
@@ -183,4 +184,90 @@ footer ul {
 }
 
 /*** Responsive */
+@media (max-width:768px)
+{
+    body{
+        background-color: black;
+
+    }
+    section>div{
+        display: flex;
+        flex-direction: column;
+     }
+    #card-section>div{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .formulario{
+        width: 100%;
+      }  
+}
+
+
+@media (max-width:450px){
+ body{
+    background-color: red;
+ }
+ #card-section>div{
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+ }
+
+ section
+ {
+    padding: 5px;
+
+}
+
+ .card{
+    width: 100%;
+    
+ }
+
+ #card-section{
+   padding-right: 20px;
+ }
+ .formulario{
+    width: 100%;
+    padding: 10px;
+   
+
+ }
+ section>div{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .contacto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+ }
+
+ footer{
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ footer>div{
+    width: 20em;
+ }
+
+}
 

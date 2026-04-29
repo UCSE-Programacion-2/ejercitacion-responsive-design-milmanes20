@@ -70,7 +70,6 @@ footer {
 }
 
 section>div {
-
     display: flex;
 }
 
@@ -201,7 +200,9 @@ footer ul {
     .card{
         width: 100%;
     }
-
+  #card-section{
+    padding-right: 20px; /*no me queda claro porque debo colocar este codigo para centrar las section card*/
+  }
     .contacto{
         display: flex;
         flex-direction: column;
@@ -211,7 +212,15 @@ footer ul {
 
     .formulario{
         width: 100%;
+        padding: 10px;
       }  
+
+  
+   section{
+   
+    padding: 5px;
+   }
+
 }
 
 

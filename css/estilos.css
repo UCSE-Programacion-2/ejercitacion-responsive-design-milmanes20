@@ -185,10 +185,7 @@ footer ul {
 /*** Responsive */
 @media (max-width:768px)
 {
-    body{
-        background-color: black;
-
-    }
+   
     section>div{
         display: flex;
         flex-direction: column;
@@ -198,11 +195,10 @@ footer ul {
         flex-direction: column;
     }
     .card{
-        width: 100%;
+        width: auto;
+        margin: 5px;
     }
-  #card-section{
-    padding-right: 20px; /*no me queda claro porque debo colocar este codigo para centrar las section card*/
-  }
+ 
     .contacto{
         display: flex;
         flex-direction: column;
@@ -212,7 +208,7 @@ footer ul {
 
     .formulario{
         width: 100%;
-        padding: 10px;
+        padding: 5px;
       }  
 
   
@@ -233,9 +229,7 @@ footer ul {
 
 
 @media (max-width:450px){
- body{
-    background-color: red;
- }
+
  #card-section>div{
 
     flex-wrap: wrap;
@@ -251,13 +245,12 @@ footer ul {
 }
 
  .card{
-    width: 100%;
+    width: auto;
+    margin: 5px;
     
  }
 
- #card-section{
-   padding-right: 20px;
- }
+
  .formulario{
     width: 100%;
     padding: 10px;

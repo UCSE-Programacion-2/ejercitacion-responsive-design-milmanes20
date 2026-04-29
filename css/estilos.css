@@ -221,6 +221,14 @@ footer ul {
     padding: 5px;
    }
 
+   footer{
+    flex-direction: column;
+    gap: 2em;
+   }
+   footer>div{
+    width: 100%;
+   }
+
 }
 
 
